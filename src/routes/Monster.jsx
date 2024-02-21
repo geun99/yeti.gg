@@ -6,12 +6,12 @@ import MonsterCard from "../Components/MonsterCard";
 const Monster = () => {
   const dispatch = useDispatch();
   let monster = useSelector((state) => {
-    return state;
+    return state.monster;
   });
   return (
     <div className="monster">
       <div className="container">
-        <h1>몬스터 목록({monster.monster.length}종)</h1>
+        <h1>몬스터 목록({monster.length}종)</h1>
         <></>
         <div className="btn-container">
           <button className="btn" onClick={() => dispatch(nameSort())}>
@@ -28,15 +28,8 @@ const Monster = () => {
           </button>
         </div>
         <div className="main">
-          {monster.monster.map((a, idx) => {
-            return (
-              <MonsterCard
-                key={idx}
-                idx={idx}
-                mob={monster.monster}
-                className="card"
-              />
-            );
+          {monster.map((a, idx) => {
+            return <MonsterCard key={idx} idx={idx} mob={a} className="card" />;
           })}
         </div>
       </div>

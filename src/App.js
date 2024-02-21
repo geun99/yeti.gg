@@ -3,6 +3,7 @@ import Monster from "./routes/Monster";
 import Item from "./routes/Item";
 import Main from "./routes/Main";
 import { Route, Routes } from "react-router-dom";
+import MonsterDetail from "./routes/MonsterDetail";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/monster" element={<Monster />} />
+          <Route path="/monster/:monsterId" element={<MonsterDetail />} />
           <Route path="/item" element={<Item />} />
         </Routes>
       </div>

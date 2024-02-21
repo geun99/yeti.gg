@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Monster from "./routes/Monster";
+import Item from "./routes/Item";
+import Main from "./routes/Main";
+import { Route, Routes } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <>
+      <nav className="nav-bar">
+        <a href="/" className="nav-main">
+          YETI.GG
         </a>
-      </header>
-    </div>
+        <a href="/monster">Monster</a>
+        <a href="/item">Item</a>
+      </nav>
+
+      <div className="container">
+        <></>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/monster" element={<Monster />} />
+          <Route path="/item" element={<Item />} />
+        </Routes>
+      </div>
+    </>
   );
-}
+};
 
 export default App;

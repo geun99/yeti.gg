@@ -1,38 +1,115 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Song+Myung&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Song Myung", serif;
+}
+
+.nav-main {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 20px;
+  background: black;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  padding-right: 20px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+  background-color: black;
   text-align: center;
+  color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 300px;
+  box-shadow: 1px 1px 1px 0.1;
+  border-radius: 5px;
+  margin: 20px;
+  background: #282c34;
+}
+
+.card img {
+  min-height: 64px;
+  padding-bottom: 20px;
+}
+.level {
+  font-weight: bold;
+}
+
+.hp {
+  color: red;
+}
+
+.exp {
+  color: yellowgreen;
+}
+
+.bg-container {
+  height: calc(100vh - 64px);
+  background: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  position: absolute;
+  top: 100px;
+  font-size: 100px;
+}
+
+.search {
+  width: 500px;
+  height: 50px;
+  padding: 20px;
+  margin: 100px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  caret-color: transparent;
+}
+
+.yeti {
+  width: 300px;
+}
+
+.search::placeholder {
+  color: #000;
+}
+.search:focus::placeholder {
+  color: transparent;
+}
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: none;
+  background: #282c34;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

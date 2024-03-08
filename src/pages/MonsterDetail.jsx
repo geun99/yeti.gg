@@ -1,6 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
+import MonsterDrop from "../Components/Monster/MonsterDrop";
+import MonsterInfo from "../Components/Monster/MonsterInfo";
+import MonsterSpawn from "../Components/Monster/MonsterSpawn";
 
 const MonsterDetail = () => {
   let { monsterId } = useParams();
@@ -12,10 +15,11 @@ const MonsterDetail = () => {
     return x.id === parseInt(monsterId);
   });
   return (
-    <>
-      <h4>{found.name}</h4>
-      <img src={found.move} alt={found.name} />
-    </>
+    <div className="bg-container">
+      <MonsterInfo found={found} />
+      <MonsterSpawn found={found} />
+      <MonsterDrop found={found} />
+    </div>
   );
 };
 

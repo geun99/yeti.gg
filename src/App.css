@@ -50,7 +50,6 @@ body {
   color: white;
 }
 
-/* Card styling */
 .card {
   gap: 6px;
   text-decoration: none;
@@ -72,7 +71,6 @@ body {
   padding-bottom: 20px;
 }
 
-/* Card details styling */
 .level {
   font-weight: bold;
 }
@@ -85,7 +83,6 @@ body {
   color: yellowgreen;
 }
 
-/* Background container styling */
 .bg-container {
   height: calc(100vh - 64px);
   background: #282c34;
@@ -95,7 +92,6 @@ body {
   align-items: center;
 }
 
-/* Main title styling */
 .main-title {
   position: absolute;
   top: 100px;
@@ -334,7 +330,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
   border-radius: 8px;
 }
 

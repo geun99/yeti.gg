@@ -7,3 +7,5 @@ OldSchoolMaple("https://osmlib.com/"),
 메이플랜드 몬스터 데이터베이스("https://docs.google.com/spreadsheets/d/e/2PACX-1vRzJv59FQx8Hv48druF4Y8HLSXZgu5nqO9leuUm7BsVHWYr_P7NG8IChPffErXqy8Fw1TB8pwRgmCE3/pubhtml#") 참고
 
 ### 제작일지 Velog ("https://velog.io/@geun99/react-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A9%94%EC%9D%B4%ED%94%8C%EB%9E%9C%EB%93%9C-%EC%A0%95%EB%B3%B4%EC%82%AC%EC%9D%B4%ED%8A%B8")
+
+### > [깃허브 주소](https://github.com/geun99/yeti.gg)

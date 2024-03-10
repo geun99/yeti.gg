@@ -8,4 +8,4 @@ OldSchoolMaple("https://osmlib.com/"),
 
 ### 제작일지 Velog ("https://velog.io/@geun99/react-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A9%94%EC%9D%B4%ED%94%8C%EB%9E%9C%EB%93%9C-%EC%A0%95%EB%B3%B4%EC%82%AC%EC%9D%B4%ED%8A%B8")
 
-### > [깃허브 주소](https://github.com/geun99/yeti.gg)
+### [중간 회고]([[https://github.com/geun99/yeti.gg](https://velog.io/write?id=597aceda-28cd-46f1-9a25-5fe24d6a2ec6)](https://velog.io/write?id=597aceda-28cd-46f1-9a25-5fe24d6a2ec6)https://velog.io/write?id=597aceda-28cd-46f1-9a25-5fe24d6a2ec6)

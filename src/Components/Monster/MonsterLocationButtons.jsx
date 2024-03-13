@@ -1,7 +1,7 @@
 import React from "react";
 
 import { useDispatch } from "react-redux";
-import { elnathFilter, victoriaFilter } from "../../store";
+import { elnathFilter, victoriaFilter } from "../../store/monsterSlice";
 
 const MonsterLocationButtons = () => {
   const dispatch = useDispatch();

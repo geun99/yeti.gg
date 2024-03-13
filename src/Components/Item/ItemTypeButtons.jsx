@@ -9,7 +9,7 @@ import {
   scrollFilter,
   throwsFilter,
   weaponFilter,
-} from "../../store";
+} from "../../store/itemSlice";
 
 const ItemTypeButtons = () => {
   const dispatch = useDispatch();

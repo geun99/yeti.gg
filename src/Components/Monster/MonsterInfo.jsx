@@ -4,7 +4,7 @@ import { formatNumber } from "../../util/format";
 const MonsterInfro = ({ found }) => {
   return (
     <div className="inform">
-      <img src={found.move} alt={found.name} className="detail-item-img" />
+      <img src={found?.move} alt={found?.name} className="detail-item-img" />
       <h1>{found.name}</h1>
       <div className="feature">
         <div className="left">

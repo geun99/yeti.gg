@@ -6,7 +6,7 @@ import {
   magicianFilter,
   rogueFilter,
   warriorFilter,
-} from "../../store";
+} from "../../store/itemSlice";
 
 const ItemClassButtons = () => {
   const dispatch = useDispatch();

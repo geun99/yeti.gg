@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { lvSort, nameSort } from "../../store";
+import { lvSort, nameSort } from "../../store/monsterSlice";
 
 const MonsterSortButtons = () => {
   const dispatch = useDispatch();

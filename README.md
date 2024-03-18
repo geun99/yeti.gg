@@ -9,4 +9,4 @@
 
 ### [프로젝트 제작중 생긴 문제점, 고민거리](https://velog.io/@geun99/react-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A9%94%EC%9D%B4%ED%94%8C%EB%9E%9C%EB%93%9C-%EC%A0%95%EB%B3%B4%EC%82%AC%EC%9D%B4%ED%8A%B8)
 
-### [중간 회고]([https://velog.io/write?id=597aceda-28cd-46f1-9a25-5fe24d6a2ec6](https://velog.io/@geun99/%EB%A9%94%EC%9D%B4%ED%94%8C%EB%9E%9C%EB%93%9C-%EC%A0%95%EB%B3%B4%EC%82%AC%EC%9D%B4%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A4%91%EA%B0%84-%ED%9A%8C%EA%B3%A0)https://velog.io/@geun99/%EB%A9%94%EC%9D%B4%ED%94%8C%EB%9E%9C%EB%93%9C-%EC%A0%95%EB%B3%B4%EC%82%AC%EC%9D%B4%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A4%91%EA%B0%84-%ED%9A%8C%EA%B3%A0)
+### [중간 회고](https://velog.io/@geun99/%EB%A9%94%EC%9D%B4%ED%94%8C%EB%9E%9C%EB%93%9C-%EC%A0%95%EB%B3%B4%EC%82%AC%EC%9D%B4%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A4%91%EA%B0%84-%ED%9A%8C%EA%B3%A0)
